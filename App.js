@@ -15,4 +15,5 @@ export default function App() {
 const styles = StyleSheet.create({
   inputContainer: {flexDirection:'row',justifyContent:'space-between',alignItems:'center'},
   screen:{margin:40}
+  //ch
 });
