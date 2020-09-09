@@ -1,0 +1,8 @@
+[0907/195251.093:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\InsHAF\AppData\Local\Google\Chrome\User Data\Crashpad\reports\ecc26215-ea36-48b2-8dc2-8c867deac331.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0907/195251.488:ERROR:process_info.cc(359)] UncheckedAllocate
+[0907/195251.646:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)
+[0909/102111.316:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0909/102615.611:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0909/103111.336:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0909/103111.336:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0909/103611.320:ERROR:crash_report_database_win.cc(428)] unexpected header

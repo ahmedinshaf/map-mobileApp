@@ -1,21 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import React,{ useState} from 'react';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import Header from './components/Header';
+import Map from './screens/MapScreen'
+import MapNavigator from './navigation/MapNavigation'
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={styles.screen}>
+      {/* <MapNavigator/> */}
+      <Text>tstfeet</Text>
     </View>
   );
 }
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  inputContainer: {flexDirection:'row',justifyContent:'space-between',alignItems:'center'},
+  screen:{margin:40}
 });
